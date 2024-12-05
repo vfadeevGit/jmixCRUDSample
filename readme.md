@@ -89,7 +89,7 @@ public Integer calculateEmployeeByDepartment(Department department) {
 22. (Optional) **Install the Generic REST API in the project**
 23. Show the [documentation section](https://docs.jmix.io/jmix/rest/getting-started.html#obtaining-access-token) with configs for Spring Security. Copy it to the project configuration file
 24. Configure a new user-management and employee-management role with API access scope;
-25. Open Postman – get a token, show the API call by endpoint:
+25. Open Postman – get a token, show the API call by endpoint:  
    a. http://localhost:8080/rest/entities/User  
    b. http://localhost:8080/rest/entities/Employee  
    c. http://localhost:8080/rest/entities/Employee /{employee_id}
