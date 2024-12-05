@@ -16,10 +16,4 @@ import org.springframework.beans.factory.annotation.Autowired;
 @DialogMode(width = "64em")
 public class EmployeeListView extends StandardListView<Employee> {
 
-    @Autowired
-    private CurrentAuthentication currentAuthentication;
-
-    public EmployeeListView() {
-//        final User user = (User) currentAuthentication.getUser();
-    }
 }
